@@ -9,7 +9,7 @@ import qytdq.lifegame.view.Dialog;
 
 public class Main {
 
-	private static boolean controller = false;
+	private static boolean controller = true;
 
 	public static void PrintMatrix(boolean[][] matrix) {
 		for (int i = 0; i < matrix.length; ++i) {
@@ -22,7 +22,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		if (controller) {
-			GameMatrix gameMatrix = new GameMatrix(40, 30, 4);
+			GameMatrix gameMatrix = new GameMatrix(40, 30, 40);
 			gameMatrix.init();
 			while (true) {
 				try {
