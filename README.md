@@ -9,7 +9,7 @@
   z：回复到正常速度
   
 Docker支持：
-  # docker run -it lifegame:v3 sh start.sh 
+  #### docker run -it lifegame:v3 sh start.sh 
   详见DockerFile
   
 ps：由于项目转化为maven构建，故由原仓库迁移于此
